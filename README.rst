@@ -18,7 +18,7 @@ copy of CKAN:
 
 #. Install the extension from its source repository::
 
-    (pyenv) $ pip install -e git+https://github.com/gsi-cyberjapan/ckanext-basemaps
+    (pyenv) $ pip install -e git+https://github.com/gsi-cyberjapan/ckanext-basemaps#egg=ckanext-basemaps
 
 
 Configuration
