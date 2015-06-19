@@ -36,8 +36,10 @@ These are the configuration options used by the extension
     ckanext.basemaps.laylers.urls = http://cyberjapandata.gsi.go.jp/xyz/std/{z}/{x}/{y}.png, http://cyberjapandata.gsi.go.jp/xyz/blank/{z}/{x}/{y}.png, http://cyberjapandata.gsi.go.jp/xyz/ort/{z}/{x}/{y}.jpg
 
 #. Attributions::
-ckanext.basemaps.laylers.attributions = 国土地理院,国土地理院,国土地理院
+
+    ckanext.basemaps.laylers.attributions = 国土地理院,国土地理院,国土地理院
 
 #. HTML::
 ./src/ckan/ckan/templates/package/search.htmlの70行目に以下の内容を追加する。
-{% snippet "basemaps/snippets/tile_resource.html" %}
+
+    {% snippet "basemaps/snippets/tile_resource.html" %}
